@@ -1,0 +1,25 @@
+body {
+  color: white;
+  background-color: rgb(31, 15, 15);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ a{
+  color: rgb(5, 2, 2);
+  padding: 5px;
+  text-decoration: none;
+}
+
+.active{
+  background: purple;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 0 10px purple;
+}
